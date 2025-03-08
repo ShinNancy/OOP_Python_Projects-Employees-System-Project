@@ -75,7 +75,7 @@ def main():
 
     elif password == DIR_PASS:
         print("\n DIRECTOR MODE")
-        director = Director("Nancy", 32, 2000000)
+        director = Director("Nancy", 32, 100000)
         run_director_mode(director)
 
 if __name__ == "__main__":
