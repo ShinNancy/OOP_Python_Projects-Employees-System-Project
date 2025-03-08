@@ -70,12 +70,12 @@ def main():
 
     if password == MAN_PASS:
         print("\n MANAGER MODE")
-        manager = Manager("John", 40, 5000000)
+        manager = Manager("John", 40, 20000)
         run_manager_mode(manager)
 
     elif password == DIR_PASS:
         print("\n DIRECTOR MODE")
-        director = Director("Nancy", 32, 10000000)
+        director = Director("Nancy", 32, 2000000)
         run_director_mode(director)
 
 if __name__ == "__main__":
